@@ -17,7 +17,7 @@
      * name type string
    * Apellido
      * lastName type string
-   * Nombre de usuario en 
+   * Nombre de usuario
      * nickname type string
    * Edad
      * age type number
