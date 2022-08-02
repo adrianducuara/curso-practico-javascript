@@ -17,7 +17,7 @@
      * name type string
    * Apellido
      * lastName type string
-   * Nombre de usuario en Platzi
+   * Nombre de usuario en 
      * nickname type string
    * Edad
      * age type number
@@ -121,13 +121,13 @@
 				console.log("Solo puedes tomar los cursos gratis");
 				break;
 			case "Basic":
-				console.log("Puedes tomar casi todos los cursos de Platzi durante un mes");
+				console.log("Puedes tomar casi todos los cursos durante un mes");
 				break;
 			case "Expert":
-				console.log("Puedes tomar casi todos los cursos de Platzi durante un año");
+				console.log("Puedes tomar casi todos los cursos durante un año");
 				break;
 			case "ExpertPlus":
-				console.log("Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año");
+				console.log("Tú y alguien más pueden tomar TODOS los cursos durante un año");
 				break;
 		}
 
@@ -137,11 +137,11 @@
 		if (tipoDeSuscripcion === 'Free') {
 			console.log("Solo puedes tomar los cursos gratis");
 		} else if (tipoDeSuscripcion === 'Basic') {
-			console.log("Puedes tomar casi todos los cursos de Platzi durante un mes");
+			console.log("Puedes tomar casi todos los cursos durante un mes");
 		} else if (tipoDeSuscripcion === 'Expert') {
-			console.log("Puedes tomar casi todos los cursos de Platzi durante un año");
+			console.log("Puedes tomar casi todos los cursos durante un año");
 		} else {
-			console.log("Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año");
+			console.log("Tú y alguien más pueden tomar TODOS los cursos durante un año");
 		}
 
 ### Replica el comportamiento de tu condicional anterior con if, else y else if, pero ahora solo con if (sin else ni else if).
@@ -150,13 +150,13 @@
 		console.log("Solo puedes tomar los cursos gratis");
 	}
 	if (tipoDeSuscripcion === 'Basic') {
-		console.log("Puedes tomar casi todos los cursos de Platzi durante un mes");
+		console.log("Puedes tomar casi todos los cursos durante un mes");
 	} 
 	if (tipoDeSuscripcion === 'Expert') {
-		console.log("Puedes tomar casi todos los cursos de Platzi durante un año");
+		console.log("Puedes tomar casi todos los cursos durante un año");
 	} 
 	if(tipoDeSuscripcion === 'ExpertPlus') {
-		console.log("Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año");
+		console.log("Tú y alguien más pueden tomar TODOS los cursos durante un año");
 	}
 --------------------------------------------------------------------------------
 >### 💡 Bonus: si ya eres una experta o experto en el lenguaje, te desafío a comentar cómo replicar este comportamiento con arrays u objetos y un solo condicional. 😏
@@ -169,13 +169,13 @@
 			"message": "Solo puedes tomar los cursos gratis"
 		},
 		"Basic": {
-			"message": "Puedes tomar casi todos los cursos de Platzi durante un mes"
+			"message": "Puedes tomar casi todos los cursos durante un mes"
 		},
 		"Expert": {
-			"message": "Puedes tomar casi todos los cursos de Platzi durante un año"
+			"message": "Puedes tomar casi todos los cursos durante un año"
 		},
 		"ExpertPlus": {
-			"message": "Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año"
+			"message": "Tú y alguien más pueden tomar TODOS los cursos durante un año"
 		}
 	}
 
@@ -193,8 +193,8 @@
 	const plansSuscription = ['Free', 'Basic', 'Expert', 'ExpertPlus'];
 	const plansSuscriptionMessage = [
 		'Solo puedes tomar los cursos gratis', 
-		'Puedes tomar casi todos los cursos de Platzi durante un mes', 'Puedes tomar casi todos los cursos de Platzi durante un año', 
-		'Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año'
+		'Puedes tomar casi todos los cursos durante un mes', 'Puedes tomar casi todos los cursos durante un año', 
+		'Tú y alguien más pueden tomar TODOS los cursos durante un año'
 	];
 
 	for(let index in plansSuscription) {
