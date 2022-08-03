@@ -1,15 +1,13 @@
 # Variables y Operaciones
 ## Responde las siguientes preguntas:
 1. ¿Qué es una variable y para qué sirve?
-	
-	Una variable es una referecia a un espacio de memoria que definimos para almacenar un tipo de dato.
+	* Una variable es una referecia a un espacio de memoria que definimos para almacenar un tipo de dato.
 2. ¿Cuál es la diferencia entre declarar e inicializar una variable?
-
-	Inicializar una variable consiste en crear y asignar un valor por defecto, declarar consiste en crear la 			variable con su respectiva palabra reservada y nombrarla sin asignar valores.
+	* Inicializar una variable consiste en crear y asignar un valor por defecto, declarar consiste en crear la variable con su respectiva palabra reservada y nombrarla sin asignar valores.
 3. ¿Cuál es la diferencia entre sumar números y concatenar strings?
-	La diferencia es que al sumar números obtienes un resultado de la operación sumar mientras que concatenar 		strigns consiste en unir estos elementos.
+	* La diferencia es que al sumar números obtienes un resultado de la operación sumar mientras que concatenar 		strigns consiste en unir estos elementos.
 4. ¿Cuál operador me permite sumar o concatenar?
-	El operador que me permite sumar o concatenar es el + plus.
+	* El operador que me permite sumar o concatenar es el + plus.
 
 -----------------------------------------------------
 ## Determina el nombre y tipo de dato para almacenar en variables la siguiente información:
@@ -67,9 +65,7 @@
 	* Una función en mi código sirve cuando escribimos
     líneas de código que se utilizan en repetidas ocasiones.
 3. ¿Cuál es la diferencia entre parámetros y argumentos de una función?
-	* Los parametros son variables que especificamos en los parentesis de una función
-	cuando la estamos construyendo, en cambio los argumentos son los valores que introducimos
-	en los parentesis de una función cuando la estamos invocando.
+	* Los parametros son variables que especificamos en los parentesis de una función cuando la estamos construyendo, en cambio los argumentos son los valores que introducimos en los parentesis de una función cuando la estamos invocando.
 
 ### Convierte el siguiente código en una función, pero, cambiando cuando sea necesario las variables constantes por parámetros y argumentos en una función:
 
@@ -99,15 +95,10 @@
 	* En JavaScript existe aproximadamente 3 el ifelse, switch y el ternario.
 
 	#### Diferencias:
-	* Ifelse: Se evalua una condición y en el caso de ser true o verdadero ejecutará todas las instrucciones
-	* contenidas en el cuerpo del If de lo contrario si es false o falso ejecutará las instrucciones dentro del
-	* cuerpo de else.
-	* switch: Toma un elemento y evalúa los posibles valores que este tenga asignado, en el caso de cumplir con
-	* algun valor, este ejecutará las instrucciones correspondientes, al definir cada uno de los casos se debe 
-	* finalizar con la palabra reservada break, porque esta estructura de control continuará ejecutando el resto 
-	* de casos e instrucciones sin tomar criterios.
-	* Ternario: Tiene la misma funcionalidad del ifelse pero implementando esta condicional en una sola línea
-	* de la siguiente manera: (true) ? 'Hey' : 'Upss', es una forma corta de implementar esta estructura de control.
+	* ****Ifelse****: Se evalua una condición y en el caso de ser true o verdadero ejecutará todas las instrucciones contenidas en el cuerpo del If de lo contrario si es false o falso ejecutará las instrucciones dentro del cuerpo de else.
+	* ****switch****: Toma un elemento y evalúa los posibles valores que este tenga asignado, en el caso de cumplir con algun valor, este ejecutará las instrucciones correspondientes, al definir cada uno de los casos se debe 
+	* finalizar con la palabra reservada break, porque esta estructura de control continuará ejecutando el resto de casos e instrucciones sin tomar criterios.
+	* ****Ternario****: Tiene la misma funcionalidad del ifelse pero implementando esta condicional en una sola línea de la siguiente manera: (true) ? 'Hey' : 'Upss', es una forma corta de implementar esta estructura de control.
 
 3. ¿Puedo combinar funciones y condicionales?
     * Claro que si, de hecho las funciones de acuerdo a su objetivo en algún momento sugirá la necesidad de tomar decisiones y de acuerdo a eso ejecutar cada una de sus líneas de código.
@@ -216,10 +207,10 @@
         - Ciclo while
         - Ciclo do while
 3. ¿Qué es un ciclo infinito y por qué es un problema?
-    Un ciclo infinito es el momento donde cualquiera de estas estructuras de control se ejecutan en un número indeterminado de veces e infinito, quiere decir que no existe una condición o criterio para finalizar la ejecución. 
+    * Un ciclo infinito es el momento donde cualquiera de estas estructuras de control se ejecutan en un número indeterminado de veces e infinito, quiere decir que no existe una condición o criterio para finalizar la ejecución. 
 	Esto es un problema porque puede ocasionar un stackOverFlow, es decir, una sobre carga en la memoria Ram congelando el funcionamiento del computador.
 4. ¿Puedo mezclar ciclos y condicionales?
-    Claro que si, en algunas oportunidades tal vez queremos utilizar, como es habitual un ciclo para leer una colección de datos y tal vez dependiendo de algunos criterios que estos valores cumplan, ejecutar una instrucción.
+    * Si, en algunas oportunidades tal vez queremos utilizar, como es habitual un ciclo para leer una colección de datos y tal vez dependiendo de algunos criterios que estos valores cumplan, ejecutar una instrucción.
 
 ### Replica el comportamiento de los siguientes ciclos for utilizando ciclos while:
 	for (let i = 0; i < 5; i++) {
